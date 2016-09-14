@@ -23,7 +23,7 @@ CLASSES =  {
 }
 
 def randomizer(pd_num):
-    if period_num in [4, 8, 9]:
+    if pd_num in [4, 8, 9]:
         return CLASSES[pd_num][random.randrange(len(CLASSES[pd_num]))]
     else:
         return "Not a valid period number"
